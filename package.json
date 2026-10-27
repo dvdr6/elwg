@@ -1,0 +1,12 @@
+{
+  "name": "elwgar-web",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "build": "node --check app.js && node --check translations.js && node --check server.js"
+  },
+  "engines": { "node": ">=20" }
+}
